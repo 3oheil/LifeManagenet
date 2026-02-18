@@ -5,12 +5,29 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{4BA84F17-C7FD-4849-A86E-0932E55211D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalLifeManagement.Core", "PersonalLifeManagement.Core\PersonalLifeManagement.Core.csproj", "{14A9B09B-FE98-4C18-BB72-1F42F2693F2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14A9B09B-FE98-4C18-BB72-1F42F2693F2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A9B09B-FE98-4C18-BB72-1F42F2693F2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A9B09B-FE98-4C18-BB72-1F42F2693F2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A9B09B-FE98-4C18-BB72-1F42F2693F2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4BA84F17-C7FD-4849-A86E-0932E55211D0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{14A9B09B-FE98-4C18-BB72-1F42F2693F2F} = {4BA84F17-C7FD-4849-A86E-0932E55211D0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FFEE117-AFDA-4DFC-9F9E-EAD5D6F01D77}
 	EndGlobalSection
 EndGlobal
